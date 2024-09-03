@@ -30,8 +30,21 @@ body {
 }
 .questionWrapper {
     padding: 10px;
-    border: 2px solid yellow;
+    border: 2px solid gold;
     align-items:center;
     justify-content:center;
     margin: 10px auto;
+}
+a {
+    font-size: 14px;
+    color: midnightblue;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: gold; /* Gold underline */
+    text-decoration-thickness: 3px; 
+}
+
+a:hover {
+    color: #FFD700; /* Gold on hover (optional) */
+    text-decoration-color: #191970; /* Midnight blue underline on hover (optional) */
 }
